@@ -1,9 +1,9 @@
 import { LinksFunction } from "@remix-run/node";
 import { Links, LiveReload, Outlet } from "@remix-run/react";
 
-import globalLargeStylesUrl from "~/styles/global-large.css";
-import globalMediumStylesUrl from "~/styles/global-medium.css";
-import globalStylesUrl from "~/styles/global.css";
+import globalLargeStylesUrl from "~/styles/global-large.css?url";
+import globalMediumStylesUrl from "~/styles/global-medium.css?url";
+import globalStylesUrl from "~/styles/global.css?url";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: globalStylesUrl },

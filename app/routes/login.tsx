@@ -8,7 +8,7 @@ import {
   useSearchParams,
 } from "@remix-run/react";
 
-import stylesUrl from "~/styles/login.css";
+import stylesUrl from "~/styles/login.css?url";
 import { db } from "~/utils/db.server";
 import { badRequest } from "~/utils/request.server";
 import { createUserSession, login, register } from "~/utils/session.server";
